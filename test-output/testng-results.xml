@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18156" started-at="2019-03-08T07:46:33Z" finished-at="2019-03-08T07:46:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18156" started-at="2019-03-08T07:46:33Z" finished-at="2019-03-08T07:46:52Z">
+      <class name="TestNG.Features.ScreenRecordingTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Features.ScreenRecordingTest@29774679]" name="beforeMethod" is-config="true" duration-ms="5274" started-at="2019-03-08T07:46:33Z" finished-at="2019-03-08T07:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="amazonTest()[pri:0, instance:TestNG.Features.ScreenRecordingTest@29774679]" name="amazonTest" duration-ms="11805" started-at="2019-03-08T07:46:39Z" finished-at="2019-03-08T07:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Features.ScreenRecordingTest@29774679]" name="afterMethod" is-config="true" duration-ms="1058" started-at="2019-03-08T07:46:51Z" finished-at="2019-03-08T07:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNG.Features.ScreenRecordingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

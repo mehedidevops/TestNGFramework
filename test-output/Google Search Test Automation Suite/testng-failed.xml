@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Google Search Test Automation Suite]">
+  <test thread-count="5" name="Google Search Test(failed)">
+    <parameter name="searchValue" value="Dhaka"/>
+    <parameter name="URL" value="https://www.google.com"/>
+    <classes>
+      <class name="com.testNG.qa.ParametersTest">
+        <methods>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.testNG.qa.ParametersTest -->
+    </classes>
+  </test> <!-- Google Search Test(failed) -->
+</suite> <!-- Failed suite [Google Search Test Automation Suite] -->
